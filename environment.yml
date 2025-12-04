@@ -1,0 +1,29 @@
+name: MLFinal
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - tqdm
+  - jupyter
+  - ipykernel
+
+  # For model building
+  - xgboost
+  - lightgbm
+  - imbalanced-learn
+
+  # For astronomical computations
+  - astropy
+  - sncosmo
+
+  # Kaggle API
+  - kaggle
+
+  # pip fallback
+  - pip

@@ -1,48 +1,50 @@
-🌌 MALLORN Astronomical Classification Challenge
+# 🌌 MALLORN Astronomical Classification Challenge
 
-Goal: Identify rare Tidal Disruption Events (TDEs)—stars being torn apart by black holes—from photometric light curves.
-Competition: Kaggle Link
-Data Source: Zwicky Transient Facility (ZTF) simulations for LSST.
+**Goal:** Identify rare Tidal Disruption Events (TDEs)—stars being torn apart by black holes—from photometric light curves.
 
-🛠 Prerequisites (Read First)
+**Competition:** [Kaggle Competition Link](https://www.kaggle.com/competitions/mallorn-astronomical-classification-challenge)
 
-You must have Conda or Miniconda installed to run this project.
+**Data Source:** Zwicky Transient Facility (ZTF) simulations for LSST.
 
-This project uses a locked environment.yml to manage complex astronomy dependencies (sncosmo, astropy) that often fail with standard pip installs.
+## 🛠 Prerequisites (Read First)
 
-Download Miniconda Here if you don't have it.
+You must have **Conda** or **Miniconda** installed to run this project.
 
-🚀 Quick Start
+This project uses a locked `environment.yml` to manage complex astronomy dependencies (like `sncosmo` and `astropy`) that often fail with standard pip installs.
 
-1. Set up the Environment
+👉 [Download Miniconda Here](https://docs.conda.io/en/latest/miniconda.html) if you don't have it.
 
-Open your terminal in this folder and run:
+## 🚀 Quick Start
 
+### 1. Set up the Environment
+
+Open your terminal in this folder and run the following commands:
+
+```bash
 # 1. Update/Create the environment from the file
 conda env update --file environment.yml --prune
 
 # 2. Activate the environment
 conda activate MLFinal
+```
 
-
-2. Authenticate Kaggle
+### 2. Authenticate Kaggle
 
 Ensure your API key is in the default location so the scripts can download data automatically.
 
-Windows: C:\Users\<Username>\.kaggle\kaggle.json
+* **Windows:** `C:\Users\<Username>\.kaggle\kaggle.json`
+* **Linux/Mac:** `~/.kaggle/kaggle.json`
 
-Linux/Mac: ~/.kaggle/kaggle.json
-
-3. Get the Data
+### 3. Get the Data
 
 Run the first exploration notebook. It includes a script to auto-download and unzip the data into the correct folder.
 
-Open notebooks/01_exploration.ipynb
+1. Open `notebooks/01_exploration.ipynb`
+2. Run the **"Setup"** cell at the top.
 
-Run the "Setup" cell at the top.
+## 📂 Project Structure
 
-📂 Project Structure
-
+```text
 MALLORN_Challenge/
 │
 ├── data/
@@ -60,14 +62,11 @@ MALLORN_Challenge/
 │
 ├── environment.yml      # The exact recipe for the Python environment
 └── README.md            # This file
+```
 
+## 📊 Key Libraries Used
 
-📊 Key Libraries Used
-
-sncosmo: For supernova/transient light curve analysis.
-
-astropy: For astronomical coordinates and time (MJD) conversions.
-
-xgboost / lightgbm: For the classification model.
-
-imbalanced-learn: To handle the rarity of TDEs.
+* **`sncosmo`**: For supernova/transient light curve analysis.
+* **`astropy`**: For astronomical coordinates and time (MJD) conversions.
+* **`xgboost` / `lightgbm`**: For the classification model.
+* **`imbalanced-learn`**: To handle the rarity of TDEs.

@@ -1,14 +1,17 @@
+# Ignore environment files and IDE settings
 .env
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
 
+# Python cache files
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
 *.egg-info/
 
-data/*
+# Data directories
+data/**/*
 !data/**/
 !data/**/.gitkeep

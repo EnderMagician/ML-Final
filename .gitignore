@@ -1,0 +1,14 @@
+.env
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.egg-info/
+
+data/*
+!data/**/
+!data/**/.gitkeep

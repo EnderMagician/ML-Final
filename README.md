@@ -59,6 +59,7 @@ MALLORN_Challenge/
 ├── src/
 │   ├── __init__.py      # Makes this folder importable
 │   └── plotting.py      # Helper functions for plotting light curves
+│   └── preprocess.py    # Helper functions for, guess what? Preprocessing
 │
 ├── environment.yml      # The exact recipe for the Python environment
 └── README.md            # This file

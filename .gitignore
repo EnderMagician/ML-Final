@@ -12,6 +12,12 @@ __pycache__/
 *.egg-info/
 
 # Data directories
-data/**/*
-!data/**/
-!data/**/.gitkeep
+data/*
+!data/processed/
+!**/.gitkeep
+
+# # Data directories
+# data/**/*
+# !data/processed/*
+# !data/**/
+# !data/**/.gitkeep

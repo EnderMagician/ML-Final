@@ -16,6 +16,8 @@ data/*
 !data/processed/
 !**/.gitkeep
 
+trash/
+
 # # Data directories
 # data/**/*
 # !data/processed/*

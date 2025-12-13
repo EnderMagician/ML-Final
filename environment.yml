@@ -21,6 +21,7 @@ dependencies:
   # For astronomical computations
   - astropy
   - sncosmo
+  - extinction
 
   # Kaggle API
   - kaggle

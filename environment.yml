@@ -12,6 +12,8 @@ dependencies:
   - tqdm
   - jupyter
   - ipykernel
+  - optuna
+  - catboost
 
   # For model building
   - xgboost

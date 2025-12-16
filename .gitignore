@@ -18,6 +18,8 @@ data/*
 
 trash/
 
+submission.csv
+
 # # Data directories
 # data/**/*
 # !data/processed/*

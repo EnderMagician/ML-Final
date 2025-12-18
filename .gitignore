@@ -14,14 +14,7 @@ __pycache__/
 # Data directories
 data/*
 !data/processed/
+
+submissions/*
+
 !**/.gitkeep
-
-trash/
-
-submission.csv
-
-# # Data directories
-# data/**/*
-# !data/processed/*
-# !data/**/
-# !data/**/.gitkeep

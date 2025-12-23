@@ -63,7 +63,9 @@ MALLORN_Challenge/
 │   ├── 04_LightGBM.ipynb          # LightGBM Training with Optuna
 │   ├── 04_CatBoost.ipynb          # CatBoost Training with Optuna
 │   ├── 04_ResNet.ipynb            # ResNet Neural Network Training
-│   └── 05_ensemble.ipynb          # Model Ensembling & Final Submission
+│   ├── 05_ensemble.ipynb          # Model Ensembling & Final Submission
+│   ├── catboost.ipynb             # CatBoost Experimentation
+│   └── data-process-mallorn.ipynb # Data Processing Utilities
 │
 ├── src/
 │   ├── __init__.py      # Makes this folder importable

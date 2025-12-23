@@ -1,9 +1,12 @@
 name: MLFinal
 channels:
+  - pytorch
+  - nvidia
   - conda-forge
   - defaults
 dependencies:
   - python=3.11
+
   - pandas
   - numpy
   - matplotlib
@@ -13,20 +16,21 @@ dependencies:
   - jupyter
   - ipykernel
   - optuna
-  - catboost
 
-  # For model building
+  - catboost
   - xgboost
   - lightgbm
   - imbalanced-learn
 
-  # For astronomical computations
+  # --- Astronomical Computations ---
   - astropy
   - sncosmo
   - extinction
 
-  # Kaggle API
-  - kaggle
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.4
 
-  # pip fallback
+  - kaggle
   - pip
